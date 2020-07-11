@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#header{
+    width: 100%;
+    background: rgb(15, 118, 236);
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+#footer{
+    width: 100%;
+    background: #eeeeee;
+    text-align: center;
+    color: #444444;
+    height: 60px;
+    line-height: 55px;
+    border-top: 1px solid #cccccc;
+}
