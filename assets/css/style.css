@@ -1,0 +1,24 @@
+#menu{
+    background-color: #eeeeee;
+}
+
+#menu ul li{
+display: block;
+float: left;
+border-right: 1px solid #cccccc;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444444;
+}
+
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
