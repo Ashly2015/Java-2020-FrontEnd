@@ -53,3 +53,38 @@ border-right: 1px solid #cccccc;
     line-height: 55px;
     border-top: 1px solid #cccccc;
 }
+
+#contenido{
+    width: 70%;
+    float: left;
+}
+
+#contenido > h1{
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px;
+    color: #444444;
+}
+#contenido .carrera{
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin: 20px;
+}
+#contenido .carrera h4{
+    text-align: center;
+    margin: 2px;
+    color: cornflowerblue;
+    
+}
+
+#contenido .carrera p img{
+    margin: 5px;
+    margin-left: 70px;
+}
+#contenido .carrera p{
+    margin: 2px;
+    font-size: 0.6em;
+    text-align: justify;
+    color: cornflowerblue;
+}
