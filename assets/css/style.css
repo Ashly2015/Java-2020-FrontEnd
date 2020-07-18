@@ -44,15 +44,6 @@ border-right: 1px solid #cccccc;
     line-height: 90px;
 }
 
-#footer{
-    width: 100%;
-    background: #eeeeee;
-    text-align: center;
-    color: #444444;
-    height: 60px;
-    line-height: 55px;
-    border-top: 1px solid #cccccc;
-}
 
 #contenido{
     width: 70%;
@@ -70,12 +61,12 @@ border-right: 1px solid #cccccc;
     height: 250px;
     float: left;
     margin: 20px;
+    margin-left: 40px;
 }
 #contenido .carrera h4{
     text-align: center;
     margin: 2px;
-    color: cornflowerblue;
-    
+    color: cornflowerblue; 
 }
 
 #contenido .carrera p img{
@@ -87,4 +78,31 @@ border-right: 1px solid #cccccc;
     font-size: 0.6em;
     text-align: justify;
     color: cornflowerblue;
+}
+#lateral{
+    width: 29%;
+    float: left;
+    min-height: 500px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 50px;
+}
+
+#lateral h4{
+    padding-bottom: 50px;
+}
+
+#footer{
+    width: 100%;
+    background: #eeeeee;
+    text-align: center;
+    color: #444444;
+    height: 60px;
+    line-height: 55px;
+    border-top: 1px solid #cccccc;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
 }
