@@ -106,3 +106,29 @@ border-right: 1px solid #cccccc;
     float: none;
     clear: both;
 }
+
+#contenido .alumno{
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+#contenido .alumno h4{
+    text-align: center;
+    margin: 2px;
+    color: cornflowerblue; 
+}
+
+
+#contenido .alumno p{
+    margin: 2px;
+    font-size: 0.6em;
+    text-align: justify;
+    color: cornflowerblue;
+}
+
+#contenido .alumno p img{
+    margin: 5px;
+    margin-left: 110px;
+}
