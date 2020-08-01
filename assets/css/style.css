@@ -33,7 +33,7 @@
 
 #header{
     text-align: center;
-    height:  60px;
+   
 }
 
 footer{
@@ -72,26 +72,27 @@ footer{
     color: cornflowerblue;
 }
 
-#lateral{
-    width: 29%;
-    float: left;
-    min-height: 500px;
-    text-align: center;
-    padding: 1px;
-    padding-top: 50px;
-}
 
 #lateral h4{
-    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+.elemento{
+    height: 250px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    #menu{
+        height: auto;
+    }
 }
 
 
 
 
-.clearFix{
-    float: none;
-    clear: both;
-}
+
+
 
 #contenido .alumno{
     width: 40%;
