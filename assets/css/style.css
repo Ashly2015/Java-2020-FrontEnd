@@ -1,48 +1,48 @@
-#menu{
-    background-color: #eeeeee;
-}
-
-#menu ul li{
-display: block;
-float: left;
-border-right: 1px solid #cccccc;
-}
-
-#menu ul li a{
-    display: block;
-    padding: 15px;
-    color: #444444;
-}
-
-#menu ul li:hover{
-    background: rgb(16, 75, 143);
-    cursor: pointer;
-}
-
-#menu ul li:hover a{
-    color: white;
-}
 *{
-    margin: 0px;
-    padding-right: 0px;
+    margin:0px;
+    padding: 0px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#general{
-    width: 1200px;
-    margin: 0px auto;
-    margin-top: 20px;
+#menu{
+    height: 50px;
+    background-color: #837d7d;
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
 }
 
-#header{
-    width: 100%;
-    background: rgb(15, 118, 236);
-    height: 100px;
-    color: white;
-    text-align: center;
-    line-height: 90px;
+#menu ul li a{
+    color:white;
 }
+
+#menu ul li:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: black;
+}
+
+
+
+#header{
+    text-align: center;
+    height:  60px;
+}
+
+footer{
+    height:  60px;
+    line-height: 55px;
+    text-align: center;
+    color:#444444;
+}
+
 
 
 #contenido{
@@ -92,15 +92,8 @@ border-right: 1px solid #cccccc;
     padding-bottom: 50px;
 }
 
-#footer{
-    width: 100%;
-    background: #eeeeee;
-    text-align: center;
-    color: #444444;
-    height: 60px;
-    line-height: 55px;
-    border-top: 1px solid #cccccc;
-}
+
+
 
 .clearFix{
     float: none;

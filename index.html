@@ -9,18 +9,18 @@
 </head>
 <body>
     <div class="container">
-        <header id="header">
+        <header id="header" class="bg-primary text-white mt-2">
             <h1>Sistema de control academico Kalum</h1>
         </header>
-        <nav id="menu">
-                <ul>
-                    <li><a href="Inicio.html">Inicio</a></li>
-                    <li><a href="index.html">Carreras Tecnicas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="alumnos.html">Alumnos</a></li>
-                    <div class="clearFix"></div>
-                </ul>
-        </nav>
+        <menu id="menu" class="col-12 bg-muted text-white">
+            <ul class="row">
+                <li class="col-xs-12 col-sm-12 col-md"><a href="Inicio.html">Inicio</a></li>
+                <li class="col-xs-12 col-sm-12 col-md"><a href="index.html">Carreras Tecnicas</a></li>
+                <li class="col-xs-12 col-sm-12 col-md"><a href="contacto.html">Contacto</a></li>
+                <li class="col-xs-12 col-sm-12 col-md"><a href="alumnos.html">Alumnos</a></li>
+            </ul>
+        </menu>
+       
         <section id="contenido">
             <h1>Carreras tecnicas disponibles</h1>
             <hr>
@@ -69,7 +69,10 @@
             </div>
         </aside>
         <div class="clearFix"></div>
-        <footer id="footer">Todos los derechos reservados &copy; Kalum v1.0.0 </footer>
+        <footer class="col-12 bg-secondary text-white">
+            Todos los derechos reservados &copy; Kalum v1.0.0
+        </footer>
+        
     </div>
     <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
