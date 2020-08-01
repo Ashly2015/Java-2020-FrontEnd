@@ -44,41 +44,34 @@ footer{
 }
 
 
-
-#contenido{
-    width: 70%;
-    float: left;
-}
-
-#contenido > h1{
+#carreras h2{
     text-align: center;
-    border-bottom: 1px solid #cccccc;
-    padding: 15px;
-    color: #444444;
 }
-#contenido .carrera{
-    width: 40%;
-    height: 250px;
-    float: left;
-    margin: 20px;
-    margin-left: 40px;
+
+
+.item {
+    
+    text-align: justify;
 }
-#contenido .carrera h4{
+
+
+#carreras h4{
     text-align: center;
     margin: 2px;
     color: cornflowerblue; 
 }
 
-#contenido .carrera p img{
+#carreras p img{
     margin: 5px;
     margin-left: 70px;
 }
-#contenido .carrera p{
+
+#carreras p{
     margin: 2px;
     font-size: 0.6em;
-    text-align: justify;
     color: cornflowerblue;
 }
+
 #lateral{
     width: 29%;
     float: left;
